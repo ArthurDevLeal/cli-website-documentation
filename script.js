@@ -11,14 +11,15 @@ function mouseOut() {
     let logoIconPath = document.querySelector(".sollievoImg path");
     logoIconPath.setAttribute("fill", "#1c1c1c");
 }
-
 // Typeit
 document.addEventListener("DOMContentLoaded", function () {
     new TypeIt("#h1", {
         speed: 120,
+        breakLines: true,
         loop: true,
         startDelay: 500,
         deleteSpeed: 120,
+        cursorChar: "|",
         cursor: true,
         cursorSpeed: 1000,
         waitUntilVisible: true,
@@ -26,3 +27,5 @@ document.addEventListener("DOMContentLoaded", function () {
         .pause(3000)
         .go();
 });
+
+
