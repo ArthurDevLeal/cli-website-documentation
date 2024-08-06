@@ -15,9 +15,7 @@ function mouseOut() {
 // Typeit
 document.addEventListener("DOMContentLoaded", function () {
     new TypeIt("#h1", {
-        strings: ["<span>Sollievo</span> CLI"],
         speed: 120,
-        breakLines: true,
         loop: true,
         startDelay: 500,
         deleteSpeed: 120,
