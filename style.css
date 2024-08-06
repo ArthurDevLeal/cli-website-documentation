@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @font-face {
     font-family: "Poppins";
     font-style: italic;
@@ -7,9 +8,18 @@
     src: url(https://fonts.gstatic.com/s/poppins/v21/pxiAyp8kv8JHgFVrJJLmE0tMMPKzSQ.woff2) format("woff2");
     unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+@font-face {
+    font-family: "Kaushan Script";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/kaushanscript/v18/vm8vdRfvXFLG3OLnsO15WYS5DG72wNJHMw.woff2) format("woff2");
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
 :root {
     --defaultColor: #16dae0;
     --defaultBlack: #1c1c1c;
+    -—ti-cursor-font-size: 5px;
 }
 * {
     padding: 0;
@@ -25,6 +35,9 @@ html {
 }
 body {
     height: 100%;
+}
+.sollievo {
+    font-family: "Kaushan Script";
 }
 .navBar {
     display: flex;
@@ -61,14 +74,14 @@ body {
     border-radius: 0.5em;
     background: var(--defaultBlack);
     color: var(--defaultColor);
-    outline: 2px solid var(--defaultBlack);
+    outline: 1.5px solid var(--defaultBlack);
     border: 2px solid white;
     transition: 0.2s ease;
 }
 .aGithub:hover {
     background: var(--defaultColor);
     color: var(--defaultBlack);
-    outline: 2px solid var(--defaultColor);
+    outline: 1.5px solid var(--defaultColor);
     transition: 0.2s ease;
     box-shadow: 0 0 10px var(--defaultColor);
 }
@@ -99,6 +112,10 @@ h1 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 100%;
+    height: 90%;
+    margin-bottom: 10%;
     justify-content: center;
+}
+.liInstallation {
+    margin: 1em 0;
 }

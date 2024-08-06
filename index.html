@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="scrollBarStyle.css">
+        <link rel="stylesheet" href="scrollBarStyle.css" />
+        <link rel="stylesheet" href="coddingBlocks.css" />
         <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/typeit@8.0.7/dist/typeit.min.js"></script>
         <title>Documentação do CLI Sollievo</title>
-        <script src="https://cdn.jsdelivr.net/npm/typeit@latest/dist/typeit.min.js"></script>
         <style></style>
     </head>
     <body>
@@ -18,7 +19,7 @@
             </svg>
             <div class="containerNavBarLinks">
                 <ul class="ulGuideMenu">
-                    <li><a href="#">Installation</a></li>
+                    <li><a href="#installationAnchor">Installation</a></li>
                     <li><a href="#">Command Details </a></li>
                 </ul>
                 <a href="https://github.com/YlanzinhoY/Sollievo" target="_blank" class="aGithub">Github</a>
@@ -26,7 +27,7 @@
         </nav>
         <main class="main">
             <div class="containerTittle">
-                <h1 id="h1"><span>Sollievo</span> CLI</h1>
+                <h1 id="h1"><span class="sollievo">Sollievo</span> CLI</h1>
                 <div class="spanLine"></div>
                 <p>
                     <span class="anotherColor">Sollievo</span> is a powerful command-line interface <span class="anotherColor">(CLI)</span><br />
@@ -35,9 +36,51 @@
                     <span class="anotherColor">Go</span>
                 </p>
             </div>
-            <div class="containerInstallation">
-                <h2>Installation</h2>
-            </div>
+            <section class="containerInstallation">
+                <h2 id="installationAnchor">Sollievo Installation</h2>
+                <ul class="ulInstallation">
+                    <li class="liInstallation">
+                        Download the latest version of Sollievo from the
+                        <a href="https://github.com/YlanzinhoY/Sollievo/releases" class="anotherColor">Releases</a> section. <br />Choose a directory
+                        for the Sollievo executable (for example, <code>/usr/local/bin</code> on Linux/Mac).
+                    </li>
+                    <li class="liInstallation">
+                        Move the downloaded file to the chosen directory:
+                        <pre><code>mv path/to/sollievo /usr/local/bin/sollievo</code></pre>
+                    </li>
+
+                    <li class="liInstallation">
+                        Add the directory to your PATH:
+                        <h4>For Bash (Linux and Mac):</h4>
+                        <pre><code>echo 'export PATH=$PATH:/usr/local/bin' >> ~/.bashrc source ~/.bashrc</code></pre>
+                        <h4>For Zsh (Mac):</h4>
+                        <pre><code>echo 'export PATH=$PATH:/usr/local/bin' >> ~/.zshrc source ~/.zshrc</code></pre>
+                    </li>
+                    <h4>Windows</h4>
+                    <ul class="ulInstallation">
+                        <li class="liInstallation">
+                            Download the latest version of Sollievo for Windows from the <a href="#releases">Releases</a> section.<br />Choose a
+                            directory for the Sollievo executable (for example, <code>C:\Program Files\Sollievo</code>).
+                        </li>
+                        <li class="liInstallation">Move the downloaded file to the chosen directory.</li>
+                        <li class="liInstallation">
+                            Add the directory to your system's PATH:
+                            <ol>
+                                <li>Right-click on 'This PC' or 'My Computer' and select 'Properties'.</li>
+                                <li>Click on 'Advanced system settings'.</li>
+                                <li>Click on 'Environment Variables'.</li>
+                                <li>Under 'System variables', find and select 'Path', then click 'Edit'.</li>
+                                <li>Click 'New' and add the directory path (e.g., <code>C:\Program Files\Sollievo</code>).</li>
+                                <li>Click 'OK' to close all dialogs.</li>
+                            </ol>
+                        </li>
+                        <li class="liInstallation">
+                            Verify the installation by running:
+                            <pre><code>sollievo --version</code></pre>
+                        </li>
+                    </ul>
+                </ul>
+            </section>
         </main>
         <script src="script.js"></script>
     </body>
