@@ -23,11 +23,6 @@ Você pode visualizar o projeto <a href="https://arthurdevleal.github.io/cli-web
 
 Não há necessidade de instalação adicional, já que todos os arquivos necessários estão incluídos.
 
-## Estrutura dos Arquivos
-* `index.html`: Estrutura HTML da página de documentação.
-* `style.css`: Estilos CSS para a página.
-* `script.js`: Lógica JavaScript para interatividade e animações.
-
 ## Biblioteca Utilizada
 Este projeto utiliza a biblioteca [TypeIt](https://typeitjs.com/) para criar o efeito de digitação animada no título principal. TypeIt é uma biblioteca JavaScript versátil e robusta para criar animações de digitação.
 
