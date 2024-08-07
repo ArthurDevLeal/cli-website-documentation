@@ -27,7 +27,6 @@ html {
 }
 body {
     height: 100%;
-    margin-bottom: 100vh;
 }
 
 .navBar {
@@ -40,7 +39,7 @@ body {
     position: fixed;
     right: 0;
     left: 0;
-    backdrop-filter: blur(5px);
+    background: white;
 }
 .containerNavBarLinks {
     display: flex;
@@ -83,7 +82,6 @@ body {
 }
 .main {
     width: 80%;
-    height: 100vh;
     margin: auto;
 }
 h1 {
@@ -105,7 +103,7 @@ h1 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 90%;
+    height: 90vh;
     margin-bottom: 10%;
     justify-content: center;
 }
@@ -121,4 +119,13 @@ h1 {
     position: absolute;
     margin-left: -22px;
     margin-top: -1px;
+}
+footer {
+    margin-top: 5%;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 1em;
+}
+footer a {
+    text-decoration: underline;
 }
