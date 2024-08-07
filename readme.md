@@ -1,5 +1,5 @@
 ![image](https://github.com/user-attachments/assets/b4d8eb76-6145-4a53-a0be-59b1fc8ca7e7)# Sollievo CLI
-<img src="https://cdn.discordapp.com/attachments/1121802963128696873/1270862673973870633/image.png?ex=66b53e98&is=66b3ed18&hm=523c52d02e9692f41fb4847b08b6cf3394254640c9a9f0b8a2b11d18cf5c3762&" alt="#">
+https://cdn.discordapp.com/attachments/1121802963128696873/1270862673973870633/image.png?ex=66b53e98&is=66b3ed18&hm=523c52d02e9692f41fb4847b08b6cf3394254640c9a9f0b8a2b11d18cf5c3762&
 ## Descrição
 Sollievo é uma poderosa ferramenta de linha de comando (CLI) projetada por **[Enzo Lanzellotti](https://github.com/YlanzinhoY/Sollievo)** com intuito de simplificar e otimizar o processo de desenvolvimento em Go. Este projeto apresenta uma página de documentação interativa para a CLI Sollievo.
 
