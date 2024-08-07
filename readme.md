@@ -45,4 +45,4 @@ Se desejar contribuir para este projeto, por favor, siga estas etapas:
 
 ## Contato
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para me contatar.
-* **Email**: seu-email@exemplo.com
+* **Email**: arthurdevleal@exemplo.com
