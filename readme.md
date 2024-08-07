@@ -2,12 +2,14 @@
 ## Descrição
 Sollievo é uma poderosa ferramenta de linha de comando (CLI) projetada por **[Enzo Lanzellotti](https://github.com/YlanzinhoY/Sollievo)** com intuito de simplificar e otimizar o processo de desenvolvimento em Go. Este projeto apresenta uma página de documentação interativa para a CLI Sollievo.
 
+Você pode visualizar o projeto <a href="https://arthurdevleal.github.io/cli-website-documentation/" target="_blank">neste link</a>.
+
 ## Funcionalidades
 * **Navegação Interativa**: Menu de navegação com links para diferentes seções da documentação.
 * **Efeito de Hover no Logo**: O logo Sollievo muda de cor quando o mouse passa por cima.
 * **Título Animado**: Utiliza a biblioteca TypeIt para criar um efeito de digitação no título principal.
 * **Design Responsivo**: Layout adaptável para diferentes tamanhos de tela.
-
+  
 ## Instalação
 1. **Clone o repositório**
    ```bash
